@@ -78,6 +78,12 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+*.tfstate
+*.tfstate.backup
+*.retry
+*creds*
+*password*
+
 # SageMath parsed files
 *.sage.py
 
